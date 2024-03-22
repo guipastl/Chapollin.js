@@ -1,3 +1,3 @@
 ## Chapolin-js
 
-Projeto exemplo para demonstrar o usu de módulos em JavaScript
+Projeto exemplo para demonstrar o uso de módulos em JavaScript
