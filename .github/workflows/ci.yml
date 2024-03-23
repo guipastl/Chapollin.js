@@ -4,7 +4,8 @@ jobs:
   chapolin-run:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-      - name: node chapolin.js
-        uses: node chapolin.js
+      uses: actions/checkout@v4
+      uses: actions/setup-node@v4
+      with:
+        node-version: '19.x'
+      run: node chapolin.js
